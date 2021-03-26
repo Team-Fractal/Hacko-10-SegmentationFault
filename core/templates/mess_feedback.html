@@ -1,0 +1,124 @@
+{% extends 'layouts/base.html' %}
+
+{% block title %} Mess Feedback {% endblock %}
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}               <H1>MESS FEEDBACK</H1>
+
+<!-- <div class="row">
+  <div class="card card-plain">
+    <div class="card-header">
+      MESS FEEDBACK
+    </div>
+    <div class="card-body">
+      <div class="col-lg-16">
+        <div class="card ">
+          <div class="card-header">
+            <h4 class="card-title">Pending Feedbacks</h4>
+          </div>
+          <div class="card-body">
+            <div class="table-responsive">
+              <table class="table tablesorter " id="">
+                <thead class=" text-primary">
+                  <tr>
+                    <th>
+                      Name
+                    </th>
+                    <th>
+                      Hostel
+                    </th>
+                    <th>
+                      Phone Number
+                    </th>
+                    <th class="text-center">
+                      Feedback
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+
+                  {% for i in messFeed %}
+                  <tr>
+                    <td>
+                      {{ i.name }}
+                    </td>
+                    <td>
+                      {{ i.hostel }}
+                    </td>
+                    <td>
+                      {{ i.phoneno }}
+                    </td>
+                    <td class="text-center">
+                      {{ i.feedback }}
+                    </td>
+                  </tr>
+                  {% endfor %}
+
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+    </div>
+    
+
+
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="card">
+          <div class="card-header">
+            <h5 class="title">Feedback here</h5>
+          </div>
+          <div class="card-body">
+            <form action = "" method = "POST">
+              {% csrf_token %}
+              <div class="row">
+                <div class="col-md-5 pr-md-1">
+                  <div class="form-group">
+                    <label>Name</label>
+                    {{ form.name }}
+                  </div>
+                </div>
+                <div class="col-md-3 px-md-1">
+                  <div class="form-group">
+                    <label>Hostel</label>
+                    {{ form.hostel }}
+                  </div>
+                </div>
+                <div class="col-md-4 pl-md-1">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Phone Number</label>
+                    {{ form.phoneno }}
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-10 pr-md-1">
+                  <div class="form-group">
+                    <label>Feedback</label>
+                    {{ form.feedback }}
+                  </div>
+                </div>
+                
+              </div>
+              <div class="card-footer">
+                <button type="submit" class="btn btn-fill btn-primary">Submit Feedback</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+
+  </div>
+</div> -->
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}
