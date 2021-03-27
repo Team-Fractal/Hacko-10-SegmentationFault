@@ -1,22 +1,22 @@
 {% extends 'layouts/base.html' %}
 
-{% block title %} Complaint Panel {% endblock %}
+{% block title %} Mess Feedback {% endblock %}
 
 <!-- Specific Page CSS goes HERE  -->
 {% block stylesheets %}{% endblock stylesheets %}
 
-{% block content %}        <H1>COMPLAINT PANNEL</H1>
+{% block content %}               <H1>MESS FEEDBACK</H1>
 
-<!-- <div class="row">
+<div class="row">
   <div class="card card-plain">
     <div class="card-header">
-      Complaint Pannel
+      MESS FEEDBACK
     </div>
     <div class="card-body">
       <div class="col-lg-16">
         <div class="card ">
           <div class="card-header">
-            <h4 class="card-title">Pending Complaints</h4>
+            <h4 class="card-title">Pending Feedbacks</h4>
           </div>
           <div class="card-body">
             <div class="table-responsive">
@@ -27,31 +27,31 @@
                       Name
                     </th>
                     <th>
-                      Room Number
+                      Hostel
                     </th>
                     <th>
                       Phone Number
                     </th>
                     <th class="text-center">
-                      Complaint
+                      Feedback
                     </th>
                   </tr>
                 </thead>
                 <tbody>
 
-                  {% for i in complains %}
+                  {% for i in messFeed %}
                   <tr>
                     <td>
                       {{ i.name }}
                     </td>
                     <td>
-                      {{ i.roomno }}
+                      {{ i.hostel }}
                     </td>
                     <td>
                       {{ i.phoneno }}
                     </td>
                     <td class="text-center">
-                      {{ i.complaint }}
+                      {{ i.feedback }}
                     </td>
                   </tr>
                   {% endfor %}
@@ -70,7 +70,7 @@
       <div class="col-lg-12">
         <div class="card">
           <div class="card-header">
-            <h5 class="title">Complain here</h5>
+            <h5 class="title">Feedback here</h5>
           </div>
           <div class="card-body">
             <form action = "" method = "POST">
@@ -84,8 +84,8 @@
                 </div>
                 <div class="col-md-3 px-md-1">
                   <div class="form-group">
-                    <label>Room Number</label>
-                    {{ form.roomno }}
+                    <label>Hostel</label>
+                    {{ form.hostel }}
                   </div>
                 </div>
                 <div class="col-md-4 pl-md-1">
@@ -98,14 +98,14 @@
               <div class="row">
                 <div class="col-md-10 pr-md-1">
                   <div class="form-group">
-                    <label>Complaint</label>
-                    {{ form.complaint }}
+                    <label>Feedback</label>
+                    {{ form.feedback }}
                   </div>
                 </div>
                 
               </div>
               <div class="card-footer">
-                <button type="submit" class="btn btn-fill btn-primary">Complain</button>
+                <button type="submit" class="btn btn-fill btn-primary">Submit Feedback</button>
               </div>
             </form>
           </div>
@@ -116,7 +116,7 @@
 
 
   </div>
-</div> -->
+</div>
 
 {% endblock content %}
 
