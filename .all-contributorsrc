@@ -40,6 +40,16 @@
         "projectManagement",
         "maintenance"
       ]
+    },
+    {
+      "login": "SupritBehera",
+      "name": "Suprit Behera",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17498636?v=4",
+      "profile": "https://github.com/SupritBehera",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
