@@ -17,6 +17,16 @@
         "review",
         "projectManagement"
       ]
+    },
+    {
+      "login": "kanchi2438",
+      "name": "Kanchi Jain",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68802268?v=4",
+      "profile": "https://www.linkedin.com/in/kanchi-jain-6475881b5",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
