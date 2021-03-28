@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./fontawesome/css/all.css">
+    <!--<script src="https://code.jquery.com/jquery-3.4.1.js"></script>-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<!---footer -->
+
+ <!-- Bootstrap4 CDN -->
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+
+ <!--Google Fonts--> 
+ <!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">-->
+
+ <!--Font awesome--> 
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+ <!---Reviews-->
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+     <style>
+          .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .button10 {
+    background-color: rgb(207, 204, 204); 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  .button4 {
+background-color: white;
+color: black;
+border: 2px solid black;
+padding: 7px;
+}
+
+.button4:hover {background-color: #e7e7e7;}
+
+         </style>
+
+
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-dark navbar-dark navbar-center">
+        <a class="navbar-brand" href="#" style="align-items: center; justify-content: center; font-size: x-large;">
+            Axios Square
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#" style="font-size: 1.5rem;"><i class="fa fa-sign-in mr-2" aria-hidden="true"></i>Login <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="font-size: 1.5rem;"><i class="fa fa-plus mr-2" aria-hidden="true"></i>Post <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+      
+        </div>
+    </nav>
+    
+    <div class="container">
+        <div class="profile-header">
+            <div class="profile-img">
+                <img src="assets/profile.png" width="200px" height="">
+                </div>
+                <div class="profile-nav-info">
+                    <h1 class="user-name">User Name</h1>
+                    <div class="address">
+                        <p class="state">Address,</p>
+                        <span class="country">Country.</span>
+                        </div>
+                        </div>
+                        <div class="profile-option">
+                            <div class="notification">
+                                <i class="fa fa-bell"></i>
+                                <span class="alert-message">1</span>
+                                </div>
+                                </div>
+                                </div>
+                                <div class="main-bd">
+                                    <div class="left-side">
+                                        <div class="profile-side">
+                                            <p class="mobile-no">
+                                                <i class="fa fa-phone"></i>+91621545XXXX</p>
+                                                <p class="user-mail">
+                                                    <i class="fa fa-envelope"></i>
+                                                    abc@gmail.com</p>
+                                                    <div class="user-bio">
+                                                        <h3>Bio</h3>
+                                                        <p class="bio">I solve problems in creative ways. At TIET, where I am completing my graduation in Engineering, I have learned the importance of applying classical strategies to modern-day projects</p>
+                                                            </div>
+                                                            <div class="profile-btn">
+                                                                <button class="chatbtn">
+                                                                    <i class="fa fa-comment"></i>Chat
+                                                                    </button>
+                                                                    <button class="createbtn">
+                                                                        <i class="fa fa-plus"></i>Post
+                                                                        </button>
+                                                                    </div>
+                                                                    <div class="user-rating">
+                                                                        <h3 class="rating">4.5</h3>
+                                                                        <div class="rate">
+                                                                            <div class="stars">
+                                                                            <i class="fa fa-star"></i>
+                                                                            <i class="fa fa-star"></i>
+                                                                            <i class="fa fa-star"></i>
+                                                                            <i class="fa fa-star"></i>
+                                                                            <i class="fa fa-star"></i>
+                                                                        </div>
+                                                                        <span class="no-user">
+                                                                             <span>123</span>&nbsp;
+                                                                             connections</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    </div>
+                        </div>
+                            <div class="right-side">
+                                <div class="nav">
+                                    <!--<ul>
+                                        <li onclick ="tabs(0)" class="user-post active">Posts</li>
+                                        <li onclick ="tabs(1)" class="user-review">Reviews</li>
+                                        <li onclick ="tabs(2)" class="user-setting">Settings</li>
+                              </ul>-->
+                              <div class="tab">
+                                <button class="tablinks" onclick="tabFunctn(event, 'posts')"><h4><strong>USER POSTS</strong></h4></button>
+                             <!----   <button class="tablinks" onclick="tabFunctn(event, 'settings')">User Settings</button>-->
+                            </div>
+                        </div>
+                        <div class="profile-body">
+                            <div id="posts" class="tabcontent">
+                         <!----<div class="profile-posts tab">-->
+                              <h1>Your Posts</h1>
+                              <p><!--ipsum dolor sit amet consectetur adipisicing elit. Iusto optio quo animi laborum quae molestiae praesentium ipsum at labore, debitis iste nam odio eveniet sequi in deleniti excepturi nostrum non nisi doloribus? Praesentium dolorum delectus aperiam et provident laudantium! Temporibus labore aspernatur repellendus corporis assumenda quia possimus! Autem quidem saepe magnam nisi? Officia incidunt impedit dolorem necessitatibus consequatur molestias repudiandae modi iusto quaerat quam, beatae animi sunt ipsum quia vel!-->  
+                                
+                                        <!-- First product box start here-->
+                                        <div class="prod-info-main prod-wrap clearfix">
+                                            <div class="row">
+                                                    <div class="col-md-5 col-sm-12 col-xs-12">
+                                                        <div class="product-image"> 
+                                                            <img src="assets/books.png" class="img-responsive"> 
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-7 col-sm-12 col-xs-12">
+                                                    <div class="product-deatil">
+                                                            <h5 class="name">
+                                                                <a href="#">
+                                                                    First Sem Books
+                                                                </a>
+                                                                <a href="#">
+                                                                    <span>Books</span>
+                                                                </a>                            
+                                    
+                                                            </h5>
+                                                            <p class="price-container">
+                                                                <span>Rs.499</span>
+                                                            </p>
+                                                            <span class="tag1"></span> 
+                                                    </div>
+                                                    <div class="description">
+                                                        <p>CSE Sem-1 books</p>
+                                                    </div>
+                                                    <div class="product-info smart-form">
+                                                        <div class="row">
+                                                            <div class="col-md-12"> 
+                                                                <a href="javascript:void(0);" class="btn" style="background-color: #df4ecb; color: white;">Call</a>
+                                                                <a href="javascript:void(0);" class="btn btn-info">Details</a>
+                                                            </div>
+                                                            <div class="col-md-12">
+                                                                <div class="rating">Rating:
+                                                                    <label for="stars-rating-5"><i class="fa fa-star text-danger"></i></label>
+                                                                    <label for="stars-rating-4"><i class="fa fa-star text-danger"></i></label>
+                                                                    <label for="stars-rating-3"><i class="fa fa-star text-danger"></i></label>
+                                                                    <label for="stars-rating-2"><i class="fa fa-star text-warning"></i></label>
+                                                                    <label for="stars-rating-1"><i class="fa fa-star text-warning"></i></label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- end product -->
+                                 
+
+                                         <!-- First product box start here-->
+                                         <div class="prod-info-main prod-wrap clearfix">
+                                            <div class="row">
+                                                    <div class="col-md-5 col-sm-12 col-xs-12">
+                                                        <div class="product-image"> 
+                                                            <img src="assets/laptop.jpg" class="img-responsive" height="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-7 col-sm-12 col-xs-12">
+                                                    <div class="product-deatil">
+                                                            <h5 class="name">
+                                                                <a href="#">
+                                                                    Asus vivobook
+                                                                </a>
+                                                                <a href="#">
+                                                                    <span>Electronics</span>
+                                                                </a>                            
+                                    
+                                                            </h5>
+                                                            <p class="price-container">
+                                                                <span>Rs.45000</span>
+                                                            </p>
+                                                            <span class="tag1"></span> 
+                                                    </div>
+                                                    <div class="description">
+                                                        <p>Intel i5, 4gbram, 256ssd </p>
+                                                    </div>
+                                                    <div class="product-info smart-form">
+                                                        <div class="row">
+                                                            <div class="col-md-12"> 
+                                                                <a href="javascript:void(0);" class="btn" style="background-color: #df4ecb; color: white;">Call</a>
+                                                                <a href="javascript:void(0);" class="btn btn-info">Details</a>
+                                                            </div>
+                                                            <div class="col-md-12">
+                                                                <div class="rating">Rating:
+                                                                    <label for="stars-rating-5"><i class="fa fa-star text-danger"></i></label>
+                                                                    <label for="stars-rating-4"><i class="fa fa-star text-danger"></i></label>
+                                                                    <label for="stars-rating-3"><i class="fa fa-star text-danger"></i></label>
+                                                                    <label for="stars-rating-2"><i class="fa fa-star text-warning"></i></label>
+                                                                    <label for="stars-rating-1"><i class="fa fa-star text-warning"></i></label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- end product -->
+                                    
+
+                                         <!-- First product box start here-->
+                                         <div class="prod-info-main prod-wrap clearfix">
+                                            <div class="row">
+                                                    <div class="col-md-5 col-sm-12 col-xs-12">
+                                                        <div class="product-image"> 
+                                                            <img src="assets/drafter.jpg" class="img-responsive" > 
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-7 col-sm-12 col-xs-12">
+                                                    <div class="product-deatil">
+                                                            <h5 class="name">
+                                                                <a href="#">
+                                                                    Drafter
+                                                                </a>
+                                                                <a href="#">
+                                                                    <span>Instruments</span>
+                                                                </a>                            
+                                    
+                                                            </h5>
+                                                            <p class="price-container">
+                                                                <span>Rs.150</span>
+                                                            </p>
+                                                            <span class="tag1"></span> 
+                                                    </div>
+                                                    <div class="description">
+                                                        <p>Instruments used in engineering drawing lab</p>
+                                                    </div>
+                                                    <div class="product-info smart-form">
+                                                        <div class="row">
+                                                            <div class="col-md-12"> 
+                                                                <a href="javascript:void(0);" class="btn" style="background-color: #df4ecb; color: white;">Call</a>
+                                                                <a href="javascript:void(0);" class="btn btn-info">Details</a>
+                                                            </div>
+                                                            <div class="col-md-12">
+                                                                <div class="rating">Rating:
+                                                                    <label for="stars-rating-5"><i class="fa fa-star text-danger"></i></label>
+                                                                    <label for="stars-rating-4"><i class="fa fa-star text-danger"></i></label>
+                                                                    <label for="stars-rating-3"><i class="fa fa-star text-danger"></i></label>
+                                                                    <label for="stars-rating-2"><i class="fa fa-star text-warning"></i></label>
+                                                                    <label for="stars-rating-1"><i class="fa fa-star text-warning"></i></label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- end product -->
+
+                                        <!-- First product box start here-->
+                                        <div class="prod-info-main prod-wrap clearfix">
+                                            <div class="row">
+                                                    <div class="col-md-5 col-sm-12 col-xs-12">
+                                                        <div class="product-image"> 
+                                                            <img src="assets/calc.jpg" class="img-responsive"> 
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-7 col-sm-12 col-xs-12">
+                                                    <div class="product-deatil">
+                                                            <h5 class="name">
+                                                                <a href="#">
+                                                                    Scientific claculator
+                                                                </a>
+                                                                <a href="#">
+                                                                    <span>Electronics</span>
+                                                                </a>                            
+                                    
+                                                            </h5>
+                                                            <p class="price-container">
+                                                                <span>Rs. 300</span>
+                                                            </p>
+                                                            <span class="tag1"></span> 
+                                                    </div>
+                                                    <div class="description">
+                                                        <p>100ms Casio Calculator</p>
+                                                    </div>
+                                                    <div class="product-info smart-form">
+                                                        <div class="row">
+                                                            <div class="col-md-12"> 
+                                                                <a href="javascript:void(0);" class="btn" style="background-color: #df4ecb; color: white;">Call</a>
+                                                                <a href="javascript:void(0);" class="btn btn-info">Details</a>
+                                                            </div>
+                                                            <div class="col-md-12">
+                                                                <div class="rating">Rating:
+                                                                    <label for="stars-rating-5"><i class="fa fa-star text-danger"></i></label>
+                                                                    <label for="stars-rating-4"><i class="fa fa-star text-danger"></i></label>
+                                                                    <label for="stars-rating-3"><i class="fa fa-star text-danger"></i></label>
+                                                                    <label for="stars-rating-2"><i class="fa fa-star text-warning"></i></label>
+                                                                    <label for="stars-rating-1"><i class="fa fa-star text-warning"></i></label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- end product -->
+                              </p>           
+                            </div>
+
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+
+    
+</body>
+</html>
