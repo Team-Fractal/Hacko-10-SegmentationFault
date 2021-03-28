@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4fbda40d-ef84-4e98-b7b2-91469606d28a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/hostel_app_final/.flutter-plugins-dependencies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hostel_app_final/android/app/google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hostel_app_final/ios/Flutter/flutter_export_environment.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hostel_app_final/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/hostel_app_final/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hostel_app_final/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/hostel_app_final/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hostel_app_final/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/hostel_app_final/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hostel_app_final/lib/screens/chat_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/hostel_app_final/lib/screens/chat_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hostel_app_final/lib/screens/login_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/hostel_app_final/lib/screens/login_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hostel_app_final/lib/screens/registration_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/hostel_app_final/lib/screens/registration_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hostel_app_final/lib/screens/welcome_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/hostel_app_final/lib/screens/welcome_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hostel_app_final/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/hostel_app_final/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hostel_app_final/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/hostel_app_final/pubspec.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/hostel_app_final" />
+  </component>
+  <component name="ProjectId" id="1qIiokH0lvVDloyVO5aQHV1noF4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Flutter/flutter_windows_2.0.1-stable" />
+    <property name="settings.editor.selected.configurable" value="flutter.settings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunManager" selected="Flutter.main.dart">
+    <configuration name="main.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/hostel_app_final/lib/main.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/hostel_app_final" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/hostel_app_final/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+    <configuration name="C:/Users/ASUS/Desktop/hostel_app_final-20210326T154015Z-001 - Copy/hostel_app_final/android/build.gradle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/hostel_app_final/android/build.gradle" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Dart Command Line App.main.dart" />
+        <item itemvalue="Gradle.C:/Users/ASUS/Desktop/hostel_app_final-20210326T154015Z-001 - Copy/hostel_app_final/android/build.gradle" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4fbda40d-ef84-4e98-b7b2-91469606d28a" name="Default Changelist" comment="" />
+      <created>1616773681745</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616773681745</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616775859382">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1616775859382" />
+    <state x="460" y="130" key="#main.dart" timestamp="1616878363327">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="460" y="130" key="#main.dart/0.0.1536.824@0.0.1536.824" timestamp="1616878363327" />
+    <state x="100" y="100" width="1336" height="624" key="AVDManager" timestamp="1616774306310">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="100" y="100" width="1336" height="624" key="AVDManager/0.0.1536.824@0.0.1536.824" timestamp="1616774306310" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1616904617517">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1616904617517" />
+    <state width="1491" height="208" key="GridCell.Tab.0.bottom" timestamp="1616878381765">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616878381765" />
+    <state width="1491" height="208" key="GridCell.Tab.0.center" timestamp="1616878381765">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1616878381765" />
+    <state width="1491" height="208" key="GridCell.Tab.0.left" timestamp="1616878381765">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1616878381765" />
+    <state width="1491" height="208" key="GridCell.Tab.0.right" timestamp="1616878381765">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1616878381765" />
+    <state x="306" y="84" key="SettingsEditor" timestamp="1616904620802">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="306" y="84" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1616904620802" />
+    <state x="579" y="111" width="672" height="678" key="search.everywhere.popup" timestamp="1616776448221">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="579" y="111" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1616776448221" />
+  </component>
+</project>
