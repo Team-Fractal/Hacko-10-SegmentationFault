@@ -9,10 +9,14 @@ In the sphere of university education, especially in such turbulent times due to
 
 [![image.png](https://i.postimg.cc/4dRPS128/image.png)](https://postimg.cc/8FwLFLSW)
 [![image.png](https://i.postimg.cc/9M19YP6w/image.png)](https://postimg.cc/YGGjpFqt)
+[![image.png](https://i.postimg.cc/6QVt7tSY/image.png)](https://postimg.cc/R30jy5vH)
+[![image.png](https://i.postimg.cc/J4y8Nbvy/image.png)](https://postimg.cc/PPk0h8th)
 
 ## Axios Sphere
 
 Axios Sphere is an integrated dashboard and issue tracker to automate common issues faced in universities, especially regarding the hostel accomodation. It aims to upheave the very inefficient, redundant and cumbersome system of issue tracking using physical notebooks; and replaces it with an elegant modern smart solution that harnesses the power of technology to vastly automate a multitude of aspects of the hostel life. It involves automating room cleaning requests, mess feedback, hostel-related complaint portal, laundry requests, booking medical appointments at the university health center, and much more. Combined with a convenient admin dashboard panel, wherein the administrator can see all requests at one central place and then take action, it indeed is a one-stop solution for hostel management.
+
+It is built using HTML/CSS/JS on the frontend and Django on the backend.
 
 ## How to build and run Axios Sphere from source
 
@@ -96,20 +100,57 @@ $ # Access the web app in browser: http://127.0.0.1:8000/
    |
    |-- ************************************************************************
 ```
+
+# Axios Cube
+
+Axios Cube is a social media and blogging tool meant solely for the current students as well as the alumni of the same university. In the times of online education, which has totally changed the dynamic of social and professional interactions as well as networking, it serves as a handy tool to connect, interact and find like-minded batchmates and people with the same interests and skills. Furthermore, it serves as a portal for close interaction with alumni of an institution. Posts can be put up by anyone, with a functioning discussions and comments section to fuel discourse, be it on formal or informal topics, both academic and non-academic. All in all, it serves as a close tightly knit personalised community for an institution, not being as restrictive as professional global networking and recruitment tools such as LinkedIn or as informal and difficult to keep track of as messaging services like WhatsApp.
+
+It is built using React along with Redux for state magement, and Node.js/Express on the backend and MongoDB database
+
+## How to build Axios Cube from Source
+
+[![image.png](https://i.postimg.cc/0Qtfyq24/image.png)](https://postimg.cc/CBqDcX8C)
+
+```bash
+$ # Get a local copy of the code
+$ git clone https://github.com/Team-Segmentation-Fault/Hacko-10-SegmentationFault
+$ cd Hacko-10-SegmentationFault/'Axios Cube'
+$
+$ # Install node modules
+$ npm i
+$ cd client
+$ npm i
+$ cd ..
+$ npm run dev
+```
+
+# Axios Square
+
+Axios Square aims to be a centralised platform to facilitate intra-college and intra-hostel buying, selling and trading of items and products. It is quite often that products such as old semester books, extra stationery and equipment which are no longer required by one person, are the exact things that people from different years or anyone else might require. It gives the opportunity to the seller to quickly gain extra cash for unwanted things, whilst giving the buyer reduced prices for things they want. It also provides the avenue for trading. 
+
+Axios Square is currently a prototype, with the frontend implemented in HTML/CSS/Bootstrap/JS. The backend to support such a portal is yet to be made, but it is in our immediate future prospect to implement it.
+
+# Axios Circle
+
+Axios Circle is a mobile app that serves as a convenient way to access the services of the Axios ecosystem from handheld mobile devices. 
+
+Axios Circle is also currently a prototye. The App is built using Flutter
+
+
 ### Todos
 
- - Geyser and Lift Integration (Using IoT Devices)
- - **Mess system and queue tracker**
- - *More hardware integrations and facilities*
- - Advance UI
+ - Geyser temperature and lift tracking integration (Using IoT Devices)
+ - Mess allocation system using data driven dynamic models
+ - Backend and general improvements for Axios Square prototype, the buying, selling, and trading portal
+ - Integration with the rest of the ecosystem and the backend for Axios Circle, the prototype Flutter App 
 
 
 ### What Has Been Done
 
- - Fake data geyser temperature and lift tracking
- - **RSVP Confirm/Reject Requests Feature**
- - *Admin panel to track all the orders/requests made*
- - **Implemented Complains, Laundary System, Medical, Room Request**
+ - Fully functional Hostel Management system Axios Sphere, along with an admin panel 
+ - Fully functional Social Media/Blogging platform Axios Cube, with the ability to make posts, comments and discuss, as well as modify your profile to add your details and interests
+ - Frontend prototype for buying/selling/trading portal Axios Square
+ - Flutter App prototype for the Axios ecosystem, Axios Circle
  
  ### Tech
 Axios uses these source projects to work properly:
