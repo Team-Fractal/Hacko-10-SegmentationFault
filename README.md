@@ -1,15 +1,18 @@
 # Axios - Team SegmentationFault
 
-> An integrated dashboard and issue tracker to automate common issues faced in universities, especially regarding the hostel accomodation. It aims to upheave the very inefficient, redundant and cumbersome system of issue tracking using physical notebooks; and replaces it with an elegant modern smart solution that harnesses the power of technology to vastly automate a multitude of aspects of the hostel life
+> Axios is not just a product but an ecosystem of tools to aid the entire university experience in both the academic and non academic sphere. The Axios ecosystem consists of four major subparts : Axios Sphere, Axios Cube, Axios Square and Axios Circle.
 
-There are two main aspects of the project : one being the student dashboard, where every student can register and have their own account, and file complaints, book laundry services, request room cleaning, and so on. The second part is the admin page, which lets the administrator see everything logged and requested by all the students, and then accept or decline it. Correspondingly, the student gets a notification on their personal account regarding the status of their filed log. Henceforth its a comprehensive and extremely convenient way to log and track issues both for the students as well as for the college/hostel administration.
+In the sphere of university education, especially in such turbulent times due to covid-19, universities are alternating between online and offline modes of education frequently. This brings in itself a new set of challenges, and we see a lot of potential for technology to bridge these challenges and hurdles in a significant way. In this context, Axios aims to be a bridge many of such challenges.
+
 
 ## Screenshots 
 
-[![Screenshot-20210307-061529.png](https://i.postimg.cc/3r1vY2dt/Screenshot-20210307-061529.png)](https://postimg.cc/grwJKXyh)
+[![image.png](https://i.postimg.cc/4dRPS128/image.png)](https://postimg.cc/8FwLFLSW)
+[![image.png](https://i.postimg.cc/9M19YP6w/image.png)](https://postimg.cc/YGGjpFqt)
 
-[![Screenshot-20210307-061608.png](https://i.postimg.cc/kXDBCzr5/Screenshot-20210307-061608.png)](https://postimg.cc/gnFYqM29)
+## Axios Sphere
 
+Axios Sphere is an integrated dashboard and issue tracker to automate common issues faced in universities, especially regarding the hostel accomodation. It aims to upheave the very inefficient, redundant and cumbersome system of issue tracking using physical notebooks; and replaces it with an elegant modern smart solution that harnesses the power of technology to vastly automate a multitude of aspects of the hostel life. It involves automating room cleaning requests, mess feedback, hostel-related complaint portal, laundry requests, booking medical appointments at the university health center, and much more. Combined with a convenient admin dashboard panel, wherein the administrator can see all requests at one central place and then take action, it indeed is a one-stop solution for hostel management.
 
 ## How to build and run Axios Sphere from source
 
