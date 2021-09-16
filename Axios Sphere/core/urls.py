@@ -4,7 +4,7 @@ Copyright (c) 2019 - present AppSeed.us
 """
 
 from django.contrib import admin
-from .views import complain_panel, room_req, medicalReq, laundary, mess_feedback, emergency
+from .views import complain_panel, room_req, medicalReq, laundary, mess_feedback, emergency, soul
 from django.urls import path, include  # add this
 
 urlpatterns = [
@@ -14,6 +14,7 @@ urlpatterns = [
     path('laundary', laundary),
     path('mess_feedback', mess_feedback),
     path('emergency', emergency),
+    path('soul', soul),
 
 
     path('admin/', admin.site.urls),          # Django admin route

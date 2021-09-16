@@ -21,6 +21,10 @@ def emergency(request):
     return render(request, "emergency.html")
 
 
+def soul(request):
+    return render(request, "soul.html")
+
+
 def complain_panel(request):
     if request.method == 'POST':
         # create a form instance and populate it with data from the request:
